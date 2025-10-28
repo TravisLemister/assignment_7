@@ -9,3 +9,12 @@ public class Main {
         System.out.println(e2.health);
         System.out.println(e2.damage);
         System.out.println(e2.type);
+
+    enemy e3 = new wizard (125, 15, "ice");
+        System.out.println(e3.health);
+        System.out.println(e3.damage);
+        System.out.println(e3.type);
+
+    enemy e4 = new goblin (50, 5);
+        System.out.println(e4.health);
+        System.out.println(e4.damage);
