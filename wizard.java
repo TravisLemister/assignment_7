@@ -5,3 +5,10 @@ public class Wizard extends Enemy{
         type = t;
     }
     void damageType(){
+        if (type.equals("fire")){
+            System.out.println("this wizard shoots a fireball");
+                }else if (type.equals("ice")){
+                    System.out.println("this wizard shoots an ice ball");
+        }
+    }
+}
